@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <aside>
+      <div class="aside-content">
+        <div class="logo"><h1>WeHR</h1></div>
+        <div class="main-menu">
+          <nav class="aside-menu">
+            <div class="menu-list">
+              <div class="title">Main menu</div>
+              <menu>
+                <li>
+                  <a href=""><i class="fa-solid fa-grip"></i> <span>Dashboard</span></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-user-plus"></i> <span>Recruitment</span></a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><i class="fa-solid fa-calendar-day"></i> <span>Schedule</span></a
+                  >
+                </li>
+                <li>
+                  <a href=""><i class="fa-solid fa-users"></i> <span>Employee</span></a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa-solid fa-radiation"></i><span>Department</span></a
+                  >
+                </li>
+              </menu>
+            </div>
+          </nav>
+        </div>
+        <div class="other">
+          <div class="title">Other</div>
+          <menu>
+            <li>
+              <a href=""><i class="fa-solid fa-headphones"></i><span>Support</span></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-gear"></i><span>Settings</span></a>
+            </li>
+          </menu>
+        </div>
+      </div>
+    </aside>
+    <div class="main">
+      <header>
+        <div class="hsearch">
+            <i class="fa-solid fa-bars"></i>
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="profile-info">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-message"></i>
+          <div class="profile">
+            <img src="image/Mask Group.png" alt="" />
+            <span>Jonh Doe</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="dashboard">
+          <div class="title">Dashboard</div>
+          <div class="dash-content">
+            <div class="ctn">
+              Available Position <br />
+              24 <br />
+              4 urgenly needed
+            </div>
+            <div class="ctn">
+              Job open <br />
+              10 <br />4 active hiring
+            </div>
+            <div class="ctn">
+              New employee <br />
+              24 <br />
+              4 department
+            </div>
+          </div>
+          <div class="dash-content">
+            <img src="image/Talent Request.png" alt="" />
+            <img src="image/Totala Employees.png" alt="" />
+          </div>
+          <div class="announcement">
+            <div class="title">Announcement</div>
+            <div class="annonce">Outing schedule for every departement</div>
+            <div class="annonce">Meeting HR Department</div>
+            <div class="annonce">
+              IT Department need two more talents for UX/UI Designer position
+            </div>
+          </div>
+        </section>
+        <section class="left" >
+          <div class="recent">
+            <div class="title">Recent activity</div>
+            <div class="recent-content">
+              <h3>You posted a new job</h3>
+              <p>
+                Kindly check the requirements and terms of work and make sure
+                everything is right.
+              </p>
+              <div class="foot">
+                Today you makes 12 Activity
+                <button>See All Activity</button>
+              </div>
+            </div>
+          </div>
+          <div class="schedule announcement">
+            <div class="title">
+                Upcoming Schedule
+            </div>
+            <span>Priority</span>
+            <div class="annonce">Review candidate applications</div>
+            <span>Other</span>
+            <div class="annonce">Review candidate applications</div>
+            <div class="annonce">Short meeting with product designer from IT Departement</div>
+            <div class="foot">Schedule New Activity</div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
